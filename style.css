@@ -4,3 +4,63 @@
 .loser{
     color: red;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EBE3DE;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 340px;
+    background-color: #6c9052;
+    margin: 100px auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    color: #172804;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container .main-content{
+    padding: 20px;
+}
+.main-score-keeper{
+    margin: 5px 0;
+    opacity: 0.8;
+}
+.main-content p{
+    margin-bottom: 10px;
+}
+.main-content label{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.buttons{
+    margin-top: 15px;
+}
+.buttons .btn{
+    width: 30%;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #282f11;
+    color: #6c9052;
+}
+#playingTo{
+    background-color: #282f11 ;
+    outline: none;
+    width: 15%;
+    color: #6c9052;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+#playingTo:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.btn:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

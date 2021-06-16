@@ -1,9 +1,9 @@
-const p1Btn = document.querySelector('.btn1');
-const p2Btn = document.querySelector('.btn2');
+const p1Btn = document.querySelector('#btn1');
+const p2Btn = document.querySelector('#btn2');
 const p1ScoreDisplay = document.querySelector('#player1Score');
 const p2ScoreDisplay = document.querySelector('#player2Score');
 const playingTo = document.querySelector('#playingTo');
-const resetBtn=document.querySelector('.btn3');
+const resetBtn=document.querySelector('#btn3');
 let p1count = 0;
 let p2count = 0;
 let winCount = 7;
