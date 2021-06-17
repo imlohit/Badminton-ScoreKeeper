@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #EBE3DE;
+    background-color: #a4ac86;
     font-family: 'Roboto', sans-serif;
 }
 .container{
@@ -64,3 +64,4 @@ body{
 .btn:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
